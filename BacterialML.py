@@ -1,3 +1,8 @@
+#! usr/bin/env python3
+# Author Gaurav Sablok
+# Date 2024-8-21
+# Universitat Potsdam
+
 import pandas as pd 
 import keras 
 import keras_dna
@@ -5,6 +10,7 @@ import tensorflow as tf
 from keras_dna import Generator
 from keras_dna import ModelWrapper, Generator
 from tensorflow.keras.models import Sequential
+
 class BacterialML:
     """summary_line
     a keras dna implementation of the machine learning class
